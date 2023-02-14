@@ -28,6 +28,7 @@ Route::get('/posts/{id}', function($id) {
     return response('Post ' . $id );
 })->where('id', '[0-9]+');
 
-route::get('search', function(Request $request) {
-
+Route::get('/search', function(Request $request) {
+    return $request->name . ' '. $request->city;
 });
+ 
