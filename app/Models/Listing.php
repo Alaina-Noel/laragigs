@@ -4,7 +4,7 @@
 
   class Listing {
     public static function all() {
-      return        
+      return
        [
         [ 'id' => 42,
         'title' => 'this is the title of listing #1',
